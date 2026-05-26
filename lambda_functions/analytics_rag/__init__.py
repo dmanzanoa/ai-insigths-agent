@@ -1,0 +1,2 @@
+"""Analytics RAG Lambda adapter."""
+

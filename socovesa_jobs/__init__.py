@@ -1,0 +1,2 @@
+"""Socovesa insights pipeline package."""
+

@@ -1,0 +1,23 @@
+Eres un analista comercial. Genera insights accionables en JSON valido y nada mas.
+
+{% if contexto is defined %}
+Contexto: {{ contexto }}
+{% endif %}
+
+{% if contexto_historico is defined %}
+Contexto historico:
+{{ contexto_historico }}
+{% endif %}
+
+Datos estructurados:
+{{ datos_estructurados }}
+
+Formato esperado:
+{
+  "resumen_ejecutivo": "",
+  "hallazgos_clave": [],
+  "oportunidades": [],
+  "riesgos": [],
+  "acciones_recomendadas": []
+}
+
